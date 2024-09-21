@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/routinglookup",
+  "version": "1.1.5",
+  "description": "Routing Number Lookup is a simple tool for looking up routing number information for USA Banks. It returns information such as the bank, location, and more based on the routing number provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/routinglookup-API.git"
+  },
+  "keywords": [
+    "routing number lookup","routing number lookup api","routing number lookup tool","routing number lookup software","routing number lookup service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/routinglookup-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/routinglookup?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
